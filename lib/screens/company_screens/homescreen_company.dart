@@ -10,6 +10,16 @@ class HomeScreenCompany extends StatefulWidget {
 class _HomeScreenCompanyState extends State<HomeScreenCompany> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SafeArea(child: Container(
+      height: MediaQuery.of(context).size.height / 3,
+      width: MediaQuery.of(context).size.width,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: [
+
+        ],
+      )
+    )
+    );
   }
 }

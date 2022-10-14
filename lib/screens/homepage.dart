@@ -43,11 +43,11 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
               icon: FaIcon(FontAwesomeIcons.houseChimney), label: "Home"),
           BottomNavigationBarItem(
-              icon: FaIcon(FontAwesomeIcons.newspaper), label: "My Interns"),
+              icon: FaIcon(FontAwesomeIcons.newspaper), label: "My Jobs"),
           BottomNavigationBarItem(
-              icon: FaIcon(FontAwesomeIcons.userTie), label: "Proffesors"),
+              icon: FaIcon(FontAwesomeIcons.plus), label: "Add Jobs"),
           BottomNavigationBarItem(
-              icon: FaIcon(FontAwesomeIcons.comment), label: "chat"),
+              icon: FaIcon(FontAwesomeIcons.search), label: "search"),
           BottomNavigationBarItem(
               icon: FaIcon(FontAwesomeIcons.user), label: "Profile"),
         ],
